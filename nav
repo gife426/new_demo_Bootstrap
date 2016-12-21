@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>bootstrap_nav</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body{
+            padding:70px ;
+        }
+        .starter{
+            padding: 20px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Project Name</a>
+                </div>
+            <div class="collapse navbar-collapse" >
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+    <div class="container">
+        <div class="starter">
+            <h1>Bootstrap starter template</h1>
+            <p class="lead">Use this document as a way to quickly start any new project.
+            All you get is this text and a mostly barebones HTML document.</p>
+        </div>
+    </div>
+</body>
+</html>
