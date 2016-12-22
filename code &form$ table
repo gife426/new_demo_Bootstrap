@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 应用</title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <style>
+        #form-horizontal{
+            width: 480px;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+       <!--code-->
+         For example <code>&lt;section &gt;</code> as inline;<br/>   
+         我希望现在能键入<kbd>cmd</kbd>命令
+         <pre>这里是代码块</pre>
+         <var>x</var>+<var>y</var>=<var>z</var><br/>				
+         <samp>hello world!</samp>
+         <br/>
+         <br/>
+         <br/>
+         <!--表单基本实例 basic form-->
+         <form role="form">
+             <div class="form-group">
+                 <label for="exampleInputEmail1">Email address</label>
+                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+             </div>
+             <div class="form-group">
+                 <label for="exampleInputPassword1">Password</label>
+                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+             </div>
+             <div class="form-group">
+                 <label for="exampleInputFile">File input</label>
+                 <input type="file" id="exampleInputFile">
+                 <p class="help-block">Example block-level help text here.</p>
+             </div>
+             <div class="checkbox">
+                 <label>
+                     <input type="checkbox"> Check me out
+                 </label>
+             </div>
+             <button type="submit" class="btn btn-default">Submit</button>
+         </form>
+         <br/>
+         <br/>
+         <br/>
+         <!--水平排列的表单form-horizontal-->																																											
+         <form class="form-horizontal" role="form" id="form-horizontal">
+             <div class="form-group">
+                 <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                 <div class="col-sm-10">
+                     <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                 <div class="col-sm-10">
+                     <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                 </div>
+             </div>
+             <div class="form-group">
+                 <div class="col-sm-offset-2 col-sm-10">
+                     <div class="checkbox">
+                         <label>
+                             <input type="checkbox"> Remember me
+                         </label>
+                     </div>
+                 </div>
+             </div>
+             <div class="form-group">
+                 <div class="col-sm-offset-2 col-sm-10">
+                     <button type="submit" class="btn btn-default">Sign in</button>
+                 </div>
+             </div>
+         </form>
+
+    <!--     <div class="checkbox">
+         <label>
+             <input type="checkbox" value="">
+             Option one is this and that&mdash;be sure to include why it's great
+         </label>
+     </div>-->
+     </div>
+</body>
+</html>
