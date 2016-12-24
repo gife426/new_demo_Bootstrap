@@ -8,7 +8,7 @@
     <script src="bootstrap.min.js"></script>
 </head>
 <body>
-
+<div class="container">
 <!--按钮和下拉式菜单组合-->
 
 <div class="btn-group">
@@ -86,7 +86,7 @@
         <li><a href="#">Dropdown link</a></li>
     </ul>
 </div>
-
+</div>
 
 
 
