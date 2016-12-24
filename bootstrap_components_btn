@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap_components</title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script  src="jquery-3.1.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</head>
+<body>
+
+<!--按钮和下拉式菜单组合-->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-default">1</button>
+    <button type="button" class="btn btn-default">2</button>
+
+    <div class="btn-group dropdown">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            Dropdown
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Dropdown link</a></li>
+            <li><a href="#">Dropdown link</a></li>
+        </ul>
+    </div>
+</div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <!--width100%按钮菜单-->
+    <div class="btn-group btn-group-justified ">
+        <div class="btn-group  ">
+            <button type="button" class="btn btn-default  ">Left</button>
+        </div>
+        <div class="btn-group ">
+            <button type="button" class="btn btn-default  ">Middle</button>
+        </div>
+        <div class="btn-group ">
+            <button type="button" class="btn btn-default ">Right</button>
+        </div>
+    </div>
+<br/>
+<br/>
+<br/>
+    <!--分列式下拉菜单-->
+<div class="btn-group">
+    <button class="btn btn-info btn-lg ">分列式下拉菜单</button>
+    <button class="btn btn-info btn-lg dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Dropdown link</a></li>
+        <li><a href="#">Dropdown link</a></li>
+    </ul>
+</div>
+<div class="btn-group">
+    <button class="btn btn-info ">分列式下拉菜单</button>
+    <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Dropdown link</a></li>
+        <li><a href="#">Dropdown link</a></li>
+    </ul>
+</div>
+<div class="btn-group">
+    <button class="btn btn-info  btn-sm">分列式下拉菜单</button>
+    <button class="btn btn-info dropdown-toggle  btn-sm" data-toggle="dropdown">
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Dropdown link</a></li>
+        <li><a href="#">Dropdown link</a></li>
+    </ul>
+</div>
+<div class="btn-group">
+    <button class="btn btn-info  btn-xs ">分列式下拉菜单</button>
+    <button class="btn btn-info dropdown-toggle  btn-xs " data-toggle="dropdown">
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Dropdown link</a></li>
+        <li><a href="#">Dropdown link</a></li>
+    </ul>
+</div>
+
+
+
+
+</body>
+</html>
