@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>后台静态页面</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</head>
+<body>
+   <div class="myheading">
+     <nav class="navbar navbar-default" role="navigation">
+         <div class="container">
+             <div class="navbar-header">
+                 <a class="navbar-brand" href="#">
+                     <img  alt="hupu" src="1.png" style="width: 75px ">
+                 </a>
+             </div>
+             <div class="collapse navbar-collapse" >
+                 <ul class="nav navbar-nav">
+                     <li class="active"><a href="">会员管理</a></li>
+                     <li><a href="">内容管理</a></li>
+                     <li><a href="">系统分析</a></li>
+                     <li class="dropdown">
+                         <a href="" class="dropdown-toggle" data-toggle="dropdown">系统维护 <span class="caret"></span></a>
+                         <ul class="dropdown-menu" role="menu">
+                             <li><a href="#">恢复系统</a></li>
+                             <li><a href="#">系统备份</a></li>
+                             <li><a href="#">断开链接</a></li>
+                             <li><a href="#">删除用户</a></li>
+                         </ul>
+                     </li>
+                 </ul>
+                 <button type="button" class="btn btn-default navbar-btn navbar-right">Sign in</button>
+                 <form class="navbar-form navbar-right" role="search">
+                     <div class="form-group">
+                         <input type="text" class="form-control" placeholder="搜索内容">
+                     </div>
+                     <button type="submit" class="btn btn-default">搜索</button>
+                 </form>
+             </div>
+         </div>
+     </nav>
+   </div>
+     <div class="mybody container">
+         <div class="row">
+             <div class="leftmemu col-xs-6 col-md-3">
+                 <div class="list-group">
+                     <a href="#" class="list-group-item">访问统计</a>
+                     <a href="#" class="list-group-item">信息统计</a>
+                     <a href="#" class="list-group-item">日志统计</a>
+                     <a href="#" class="list-group-item">信息提取</a>
+                     <a href="#" class="list-group-item">访问统计</a>
+                     <a href="#" class="list-group-item">信息统计</a>
+                     <a href="#" class="list-group-item">日志统计</a>
+                     <a href="#" class="list-group-item">信息提取</a>
+                     <a href="#" class="list-group-item">访问统计</a>
+                     <a href="#" class="list-group-item">信息统计</a>
+                     <a href="#" class="list-group-item">日志统计</a>
+                     <a href="#" class="list-group-item">信息提取</a>
+                 </div>
+             </div>
+             <div class="content col-xs-6 col-md-9">
+                      <ol class="content breadcrumb">
+                          <li><a href="#">虎扑体育后台</a></li>
+                          <li><a href="#">系统分析</a></li>
+                          <li class="active">访问统计</li>
+                      </ol>
+                 <div class="table-responsive">
+                     <table class="table table-bordered table-hover">
+                         <thead>
+                         <tr>
+                             <th>#</th>
+                             <th>日期</th>
+                             <th>访问量</th>
+                             <th>热力图</th>
+                         </tr>
+                         </thead>
+                         <tbody>
+                         <tr>
+                             <td>1</td>
+                             <td>2017年1月3日</td>
+                             <td>10</td>
+                             <td><a href="#">详情</a></td>
+                         </tr>
+                         <tr>
+                             <td>1</td>
+                             <td>2017年1月3日</td>
+                             <td>10</td>
+                             <td><a href="#">详情</a></td>
+                         </tr>
+                         <tr>
+                             <td>1</td>
+                             <td>2017年1月3日</td>
+                             <td>10</td>
+                             <td><a href="#">详情</a></td>
+                         </tr>
+                         <tr>
+                             <td>1</td>
+                             <td>2017年1月3日</td>
+                             <td>10</td>
+                             <td><a href="#">详情</a></td>
+                         </tr>
+                         <tr>
+                             <td>1</td>
+                             <td>2017年1月3日</td>
+                             <td>10</td>
+                             <td><a href="#">详情</a></td>
+                         </tr>
+                         <tr>
+                             <td>1</td>
+                             <td>2017年1月3日</td>
+                             <td>10</td>
+                             <td><a href="#">详情</a></td>
+                         </tr>
+                         <tr>
+                             <td>1</td>
+                             <td>2017年1月3日</td>
+                             <td>10</td>
+                             <td><a href="#">详情</a></td>
+                         </tr>
+                         <tr>
+                             <td>1</td>
+                             <td>2017年1月3日</td>
+                             <td>10</td>
+                             <td><a href="#">详情</a></td>
+                         </tr>
+                         <tr>
+                             <td>1</td>
+                             <td>2017年1月3日</td>
+                             <td>10</td>
+                             <td><a href="#">详情</a></td>
+                         </tr>
+                         <tr>
+                             <td>1</td>
+                             <td>2017年1月3日</td>
+                             <td>10</td>
+                             <td><a href="#">详情</a></td>
+                         </tr>
+                         </tbody>
+                     </table>
+                 </div>
+                 <nav class="pull-right">
+                     <ul class="pagination">
+                         <li class="disabled"><a href="#">&laquo;</a></li>
+                         <li class="active"><span>1 </span></li>
+                         <li ><a href="#">2 </a></li>
+                         <li ><a href="#">3 </a></li>
+                         <li ><a href="#">4 </a></li>
+                         <li ><a href="#">5 </a></li>
+                         <li ><a href="#">6</a></li>
+                         <li ><a href="#">7</a></li>
+                         <li><a href="#">&raquo;</a></li>
+                     </ul>
+                 </nav>
+             </div>
+         </div>
+         <div class="myfooter">
+             <p>@虎扑体育：www.hupu.com</p>
+         </div>
+     </div>
+ <script>
+     $('.navbar-nav a').click(function (e) {
+         e.preventDefault()
+         $(this).tab('show')
+     })
+ </script>
+
+</body>
+</html>
