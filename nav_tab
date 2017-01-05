@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+<ul class="nav nav-tabs" id="myTable" role="tablist">
+    <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li class="dropdown" role="presentation">
+        <a  role="tab" class="dropdown-toggle" data-toggle="dropdown">Settings<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#c1" tabindex="-1" data-toggle="tab">settings1</a></li>
+                <li><a href="#c2" tabindex="-1" data-toggle="tab">settings2</a></li>
+            </ul>
+    </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade active" id="home">HOME</div>
+    <div role="tabpanel" class="tab-pane fade" id="profile">PROFILE</div>
+    <div role="tabpanel" class="tab-pane fade" id="messages">MESSAGES</div>
+    <div role="tabpanel" class="tab-pane fade" id="c1">SETTING1</div>
+    <div role="tabpanel" class="tab-pane fade" id="c2">SETTING2</div>
+</div>
+</div>
+<script>
+    $('#myTable a:last').tab('show');
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+       alert("切换成功")
+    })
+</script>
+</body>
+</html>
