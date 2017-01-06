@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js插件</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <p>
+        <a class="btn btn-primary" id="aid" href="#" title="www.hupu.com" data-toggle="tooltip"
+           data-placement="bottom"  data-animation="true">
+            虎扑体育</a>
+    </p>
+
+
+    <p>
+        <a class="btn btn-primary" id="aid2" href="#" data-toggle="popover"title="虎扑体育" data-content="可能是最好的篮球网站"
+        data-trigger="focus"   data-placement="right"  data-animation="true">
+            虎扑体育</a>
+    </p>
+
+</div>
+
+<script>
+    $('#aid').tooltip({
+        delay:{show:500,hide:1000}
+    });
+    $("#aid2").popover()
+    $("#aid2").on("hidden.bs.popover",function () {
+        alert("弹出框消失了")
+    })
+</script>
+</body>
+</html>
